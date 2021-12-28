@@ -1,0 +1,8 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - before: npm i -g @adonisjs/cli
+  - init: npm install
+    command: adonis serve
+ports:
+  - port: 6379
